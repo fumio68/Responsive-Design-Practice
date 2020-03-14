@@ -1,0 +1,6 @@
+// メディアクエリ
+@mixin tab {
+  @media (min-width: ($tab)) {
+    @content;
+  }
+}

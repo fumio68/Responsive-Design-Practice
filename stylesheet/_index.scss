@@ -1,0 +1,51 @@
+// コンテンツA: ヒーローイメージ
+.conA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../img/fruits.jpg);
+  background-position: center;
+  background-size: cover;
+  color: $text-bright-color;
+  color: #fff;
+  text-align: center;
+  &__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15vw;
+    letter-spacing: 0.2em;
+    margin: 0 0 10px 0.2em;
+  }
+  &__text{
+    font-size: 18px;
+  }
+  &__image{
+    width: 20%;
+  }
+  &__link{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 3px solid currentColor;
+    border-radius: 6px;
+    background-color: $accent-color;
+    color: $text-bright-color;
+    font-size: 14px;
+    text-decoration: none;
+    &:hover{
+      background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
+    }
+  }
+}
+
+@include pc{
+  .conA{
+    &__title{
+      font-size: 115px;
+    }
+    &__text{
+      font-size: 24px;
+    }
+  }
+}
