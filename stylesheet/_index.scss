@@ -39,7 +39,7 @@
   }
 }
 
-@include pc{
+@include tab{
   .conA{
     &__title{
       font-size: 115px;
@@ -47,5 +47,56 @@
     &__text{
       font-size: 24px;
     }
+  }
+  .conB{
+    &__container{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      max-width: $large-width;
+      margin: 0 auto;
+    }
+  }
+}
+
+// コンテンツB: 概要(アイコン+テキスト)
+.conB{
+  &__container{
+    padding: 80px 0 20px 0;
+    &__content{
+      text-align: center;
+      padding: 0 20px 60px 20px;
+      &__title{
+        margin-bottom: 10px;
+        font-size: 20px;
+      }
+      &__text{
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.8;
+        opacity: 0.8;
+      }
+      &__link{
+        color: #5D9AB2;
+        color: $main-color;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &__icon{
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 40px;
+    width: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ddd;
+    background: $icon-bk-color;
+    color: #fff;
+    color: $icon-color;
   }
 }
