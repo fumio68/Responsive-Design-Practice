@@ -127,7 +127,7 @@
   }
 }
 
-// コンテンツC: 概要（画像＋テキスト）逆配置
+// コンテンツD: 概要（画像＋テキスト）逆配置
 .conD{
   // background-image: url(../img/life.jpg);
   // background-position: center;
@@ -216,10 +216,10 @@
       margin: 0 auto;
       padding: 40px 0;
       &__photo{
-        flex: 3;
+        flex: 0 0 400px;
       }
       &__content{
-        flex: 2;
+        flex: 1;
         padding: 50px;
       }
     }
