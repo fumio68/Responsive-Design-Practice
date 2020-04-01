@@ -225,6 +225,13 @@ footer {
   }
 }
 
+// フッターC:  コピーライト
+.footer__container--C {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 // メディアクエリ
 @include tab{
@@ -284,6 +291,23 @@ footer {
     }
     & div:not(:first-child) {
       margin-left: 40px;
+    }
+  }
+  .footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    max-width: $large-width;
+    margin: 0 auto;
+    &--A {
+      flex: 0 0 40%;
+    }
+    &--B {
+      flex:  0 0 60%;
+    }
+    &--C {
+      flex: 0 0 100%;
+      padding: 30px 0 0 0;
     }
   }
 }

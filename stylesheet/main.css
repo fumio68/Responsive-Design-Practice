@@ -253,6 +253,12 @@ footer {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.footer__container--C {
+  font-size: 12px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (min-width: 768px) {
   .conA__title {
     font-size: 115px;
@@ -326,6 +332,32 @@ footer {
   }
   .footer__container--B div:not(:first-child) {
     margin-left: 40px;
+  }
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    max-width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .footer__container--A {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+  }
+  .footer__container--B {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+  }
+  .footer__container--C {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 30px 0 0 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
