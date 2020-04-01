@@ -196,6 +196,33 @@ body {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
 }
 
+footer {
+  color: #fff;
+  color: #fff;
+  background-color: #2B5566;
+  background-color: #2B5566;
+}
+
+.footer__container {
+  padding: 40px 20px;
+}
+
+.footer__container--A__title {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2em;
+}
+
+.footer__container--A__text {
+  font-size: 14px;
+}
+
+.footer__container--A__link {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .conA__title {
     font-size: 115px;
