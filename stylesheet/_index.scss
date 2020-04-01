@@ -232,6 +232,42 @@ footer {
   font-family: 'Montserrat', sans-serif;
 }
 
+// フッターD:  SNSメニュー
+.footer__container--D {
+  margin-top: 20px;
+  &__list {
+    list-style: none;
+    display: flex;
+    & a {
+      color: inherit;
+      font-size: 16px;
+      margin-right: 8px;
+      text-decoration: none;
+      display: block;
+      padding: 0px;
+      border: 1px solid currentColor;
+      width: 2.17em;
+      line-height: 2em;
+      border-radius: 50%;
+      text-align: center;
+      &:hover {
+        background-color: rgba(0, 0, 0, .3);
+      }
+    }
+  }
+}
+
+// アイコンの代替テキストの非表示設定
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 // メディアクエリ
 @include tab{
