@@ -299,6 +299,19 @@ footer {
   border: 0;
 }
 
+.header__container--A {
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 20px;
+  background-color: #5D9AB2;
+  background-color: #5D9AB2;
+  color: #fff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .conA__title {
     font-size: 115px;

@@ -269,6 +269,20 @@ footer {
   border: 0;
 }
 
+// ヘッダーA:  サイト名
+.header__container--A {
+  display: inline-block;
+  line-height: 70px;
+  padding: 0 20px;
+  background-color: #5D9AB2;
+  background-color: $main-color;
+  color: #fff;
+  color: $text-bright-color;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
 // メディアクエリ
 @include tab{
   .conA{
