@@ -294,6 +294,23 @@ header {
   text-decoration: none;
 }
 
+// ヘッダーB:  ナビゲーションメニュー
+.header__container--B {
+  &__list {
+    list-style: none;
+    & a {
+      color: inherit;
+      font-size: 12px;
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+      &:hover {
+        background-color: rgba(0, 0, 0, .3);
+      }
+    }
+  }
+}
+
 // メディアクエリ
 @include tab{
   .conA{
@@ -369,6 +386,18 @@ header {
     &--C {
       flex: 0 0 100%;
       padding: 30px 0 0 0;
+    }
+  }
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    max-width: $large-width;
+    margin-left: auto;
+    margin-right: auto;
+    &--B__list {
+      display: flex;
     }
   }
 }
