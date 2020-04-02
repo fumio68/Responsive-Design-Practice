@@ -311,6 +311,24 @@ header {
   }
 }
 
+// ヘッダーC:  トグルボタン
+.header__container-small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__container--C {
+  margin-right: 10px;
+  font-size: 28px;
+  opacity: 0.5;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.3;
+  }
+}
+
+
 // メディアクエリ
 @include tab{
   .conA{
@@ -398,6 +416,9 @@ header {
     margin-right: auto;
     &--B__list {
       display: flex;
+    }
+    &--C {
+      display: none;
     }
   }
 }
