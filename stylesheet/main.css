@@ -322,6 +322,10 @@ header {
   text-decoration: none;
 }
 
+.header__container--B {
+  display: none;
+}
+
 .header__container--B__list {
   list-style: none;
 }
@@ -475,6 +479,9 @@ header {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .header__container--B {
+    display: block !important;
   }
   .header__container--B__list {
     display: -webkit-box;
