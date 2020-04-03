@@ -498,4 +498,15 @@ header {
     display: none;
   }
 }
+
+.post__container {
+  max-width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+
+.post__container__title {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=main.css.map */

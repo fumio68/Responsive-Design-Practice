@@ -1,0 +1,12 @@
+// コンテンツページ:  記事
+.post {
+  &__container {
+    max-width: 800px;
+    max-width: $middle-width;
+    margin: 0 auto;
+    padding: 30px 10px;
+    &__title {
+      margin-bottom: 20px;
+    }
+  }
+}
