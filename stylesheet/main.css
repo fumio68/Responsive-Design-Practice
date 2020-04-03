@@ -619,6 +619,26 @@ header {
   background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
 }
 
+.history__container__content table {
+  border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.history__container__content th, .history__container__content td {
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.history__container__content th {
+  padding-right: 1rem;
+  text-align-last: left;
+  word-break: keep-all;
+}
+
 @media (min-width: 768px) {
   .history__container {
     display: -webkit-box;

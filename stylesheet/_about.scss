@@ -36,6 +36,23 @@
           background-image: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2));
         }
       }
+      & table {
+        border-top: 1px solid #ddd;
+        border-top: 1px solid $gray-color;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+      }
+      & th, td {
+        border-bottom: 1px solid #ddd;
+        border-bottom: 1px solid $gray-color;
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+      }
+      & th {
+        padding-right: 1rem;
+        text-align-last: left;
+        word-break: keep-all;
+      }
     }
   }
 }
