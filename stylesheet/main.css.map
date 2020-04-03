@@ -5,7 +5,8 @@
         "main.scss",
         "_variable.scss",
         "_mixin.scss",
-        "_index.scss"
+        "_index.scss",
+        "_contents.scss"
     ],
     "names": [],
     "file": "main.css"
