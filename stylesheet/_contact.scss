@@ -1,0 +1,23 @@
+// お問い合わせページ:  問い合わせ先
+.post__container__contact {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border: 1px solid $gray-color;
+  text-align: center;
+  & h2 {
+    margin-bottom: 20px;
+  }
+}
+
+@include tab {
+  .post__container__wrap {
+    display: flex;
+  }
+  .post__container__contact {
+    flex: 1;
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}

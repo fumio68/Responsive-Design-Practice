@@ -660,4 +660,32 @@ header {
     padding: 50px;
   }
 }
+
+.post__container__contact {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.post__container__contact h2 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .post__container__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .post__container__contact {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .post__container__contact:first-child {
+    margin-right: 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
