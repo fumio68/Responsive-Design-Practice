@@ -4,6 +4,28 @@ body {
   font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
 
+@media (max-width: 600px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 799px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+body {
+  font-size: 16px;
+}
+
 .conA {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -508,5 +530,11 @@ header {
 
 .post__container__title {
   margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.post__container p {
+  font-size: 1rem;
+  line-height: 2;
 }
 /*# sourceMappingURL=main.css.map */
