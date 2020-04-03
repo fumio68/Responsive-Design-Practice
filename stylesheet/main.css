@@ -309,6 +309,12 @@ header {
   position: fixed;
 }
 
+.nohero header {
+  position: static;
+  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
 .header__container--A {
   display: inline-block;
   line-height: 70px;
