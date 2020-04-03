@@ -531,10 +531,17 @@ header {
 .post__container__title {
   margin-bottom: 20px;
   font-size: 2rem;
+  padding-left: 0.5rem;
+  border-left: 0.75rem solid #BF6A7A;
+  border-left: 0.75rem solid #BF6A7A;
 }
 
 .post__container p {
   font-size: 1rem;
   line-height: 2;
+}
+
+.post__container img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
