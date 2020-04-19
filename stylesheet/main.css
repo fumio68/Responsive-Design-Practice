@@ -818,8 +818,8 @@ header {
 
 .listB article {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 300px;
-          flex: 1 1 300px;
+      -ms-flex: 1 1 384px;
+          flex: 1 1 384px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -835,7 +835,10 @@ header {
 }
 
 .listB__photo {
-  min-height: 150px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  min-height: 0;
   background-position: center;
   background-size: cover;
 }
@@ -845,7 +848,9 @@ header {
       -ms-flex: 1;
           flex: 1;
   margin: 10px;
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 1px solid #ddd;
   border: 1px solid #ddd;
   color: inherit;
@@ -857,6 +862,20 @@ header {
 }
 
 .listB__text {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
   margin: 10px;
+}
+
+@media (max-width: 384px) {
+  .listB__photo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .listB p {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */
