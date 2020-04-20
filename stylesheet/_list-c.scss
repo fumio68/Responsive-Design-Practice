@@ -8,43 +8,52 @@
   &__container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
-    max-width: $large-width;
-    margin: 30px auto;
+    max-width: none;
+    margin: 2px auto;
   }
   & h1 {
     text-align: center;
     padding-top: 40px;
   }
   & article {
-    flex: 1 1 300px;
+    flex: 1 1 250px;
     display: flex;
   }
   & h2 {
+    margin: 0;
     font-size: 18px;
   }
   & p {
+    margin: 0;
     font-size: 14px;
     opacity: .8;
   }
   &__photo {
-    min-height: 150px;
+    min-height: 250px;
     background-position: center;
     background-size: cover;
+    opacity: .6;
   }
   & a {
+    position: relative;
     flex: 1;
     margin: 10px;
     display: block;
     border: 1px solid #ddd;
     border: 1px solid $gray-color;
     color: inherit;
+    background-color: currentColor;
     text-decoration: none;
     &:hover {
       opacity: .8;
     }
   }
   &__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     margin: 10px;
+    color: #fff;
+    color: $text-bright-color;
   }
 }
