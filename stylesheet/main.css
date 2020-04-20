@@ -878,4 +878,71 @@ header {
     display: none;
   }
 }
+
+.conA.compact {
+  height: 450px;
+  min-height: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.1))), url(../img/balloon.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/balloon.jpg);
+}
+
+.listC__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1000px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.listC h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.listC article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.listC h2 {
+  font-size: 18px;
+}
+
+.listC p {
+  font-size: 14px;
+  opacity: .8;
+}
+
+.listC__photo {
+  min-height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+
+.listC a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+  display: block;
+  border: 1px solid #ddd;
+  border: 1px solid #ddd;
+  color: inherit;
+  text-decoration: none;
+}
+
+.listC a:hover {
+  opacity: .8;
+}
+
+.listC__text {
+  margin: 10px;
+}
 /*# sourceMappingURL=main.css.map */
